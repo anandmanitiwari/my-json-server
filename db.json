@@ -1,25 +1,26 @@
-{"response":[{
-  "submissionUUID": "TZRKK8MFZCPSTW9XCYWBMKME10",
-  "acceptedDocuments": [
-    {
-      "internalId": "68e656b2-51e6-7e83-5254-1e67e8354720", 
-      "newId": "f8132a51-1ca3-4e83-9254-1e37f8674gg1"
-    },
-    {
-      "internalId": "95442f51-d34f-4276-80b3-6fac328407da",
-      "newId": "2365093c-f482-4b29-8a08-0827461823aa" 
+{
+    "response": {
+        "submissionUUID": "TZRKK8MFZCPSTW9XCYWBMKME10",
+        "acceptedDocuments": [
+            {
+                "internalId": "68e656b2-51e6-7e83-5254-1e67e8354720",
+                "newId": "f8132a51-1ca3-4e83-9254-1e37f8674gg1"
+            },
+            {
+                "internalId": "95442f51-d34f-4276-80b3-6fac328407da",
+                "newId": "2365093c-f482-4b29-8a08-0827461823aa"
+            }
+        ],
+        "rejectedDocuments": [
+            {
+                "internalId": "8d7f6aee-a835-4729-9254-1e37f867f3rf",
+                "errors": [
+                    {
+                        "code": "400",
+                        "message": "Invalid UUID format"
+                    }
+                ]
+            }
+        ]
     }
-  ],
-  "rejectedDocuments": [
-    {
-      "internalId": "8d7f6aee-a835-4729-9254-1e37f867f3rf",
-      "errors": [
-        {
-          "code": "400",
-          "message": "Invalid UUID format" 
-        }
-      ]
-    }
-  ]
 }
-]}
